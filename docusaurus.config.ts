@@ -14,15 +14,15 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://lisa.goweki.com/",
+  url: "https://learning.goweki.com/",
   baseUrl: "/",
 
-  // // GitHub pages deployment config.
-  // // If you aren't using GitHub pages, you don't need these.
-  // organizationName: "lisa", // Usually your GitHub org/user name.
-  // projectName: "lisa", // Usually your repo name.
-  // onBrokenLinks: "throw",
-  // onBrokenMarkdownLinks: "warn",
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: "goweki", // Usually your GitHub org/user name.
+  projectName: "learning-nlm", // Usually your repo name.
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
