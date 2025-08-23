@@ -73,8 +73,7 @@ const config: Config = {
       title: "Docs",
       logo: {
         alt: "logo",
-        src: "img/logo_onLight.svg", // Logo for light mode
-        srcDark: "img/logo_onDark.svg", // Logo for dark mode
+        src: "img/logo.svg",
       },
       items: [
         {
