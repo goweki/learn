@@ -14,8 +14,8 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://learning.goweki.com/",
-  baseUrl: "/",
+  url: "https://goweki.github.io",
+  baseUrl: "/learning-nlm/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
