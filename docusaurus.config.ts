@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Learning & Documentations",
-  tagline: "Your hub for tutorials, user manuals and documentations",
+  tagline: "A hub for tutorials, user manuals and documentations",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -14,8 +14,8 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://goweki.github.io",
-  baseUrl: "/learn/",
+  url: "https://learn.goweki.com",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -70,22 +70,23 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Docs",
+      title: "Home",
       logo: {
         alt: "logo",
-        src: "img/logo.svg",
+        src: "img/logo_icon.svg",
+        // srcDark: "img/logo_onDark.svg",
       },
       items: [
         {
           type: "docSidebar",
-          sidebarId: "userManualSidebar",
+          sidebarId: "mainSidebar",
           position: "left",
-          label: "User Manual",
+          label: "Resources",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://lisa.goweki.com/",
-          label: "Go to Dashboard",
+          label: "Lisa Legal",
           position: "right",
         },
       ],
@@ -97,8 +98,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "User Manual",
-              to: "/docs/introduction",
+              label: "Home",
+              to: "/docs",
             },
           ],
         },

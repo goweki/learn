@@ -18,6 +18,9 @@
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* align vertically */
+  gap: 1rem; /* consistent spacing between buttons */
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  margin-top: 1.5rem; /* breathing room above */
 }

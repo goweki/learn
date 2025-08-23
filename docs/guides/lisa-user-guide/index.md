@@ -13,4 +13,4 @@ This documentation will guide you through installation, configuration, and every
 - Automated notifications
 - Lisa AI with whatsapp integration
 
-👉 If you’re new, start with [Registration](./user-guide/registration).
+👉 If you’re new, start with [Registration](./lisa-user-guide/registration).

@@ -17,16 +17,22 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="margin-bottom--lg">
+        {/* <p className="margin-bottom--lg">
           This documentation will guide you through LISA's{" "}
           <span className="">everyday use</span>.
-        </p>
+        </p> */}
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/introduction"
+            to="/docs/courses"
           >
-            Getting Started
+            Courses
+          </Link>
+          <Link className="button button--secondary button--lg" to="/docs">
+            All Documentations
+          </Link>
+          <Link className="button button--secondary button--lg" to="/blog">
+            Blog
           </Link>
         </div>
       </div>

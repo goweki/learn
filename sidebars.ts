@@ -13,16 +13,76 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  userManualSidebar: [
-    "introduction",
+  mainSidebar: [
+    "index",
     {
       type: "category",
-      label: "User Manual",
+      label: "Learn",
+      collapsed: false, // keeps it open by default
       items: [
-        "user-guide/registration",
-        "user-guide/user-management",
-        "user-guide/case-management",
-        "user-guide/task-management",
+        {
+          type: "category",
+          label: "Full Stacked",
+          link: { type: "doc", id: "full-stacked/index" },
+          items: ["full-stacked/ep001"],
+        },
+        {
+          type: "category",
+          label: "Courses",
+          link: { type: "doc", id: "courses/index" },
+          items: ["courses/intro-to-uiux"],
+        },
+        // {
+        //   type: "category",
+        //   label: "Loci",
+        //   items: [
+        //     "loci-user-guide/getting-started",
+        //     "loci-user-guide/configuration",
+        //     "loci-user-guide/automation",
+        //   ],
+        // },
+        // {
+        //   type: "category",
+        //   label: "Another Product",
+        //   items: [
+        //     "another-user-guide/setup",
+        //     "another-user-guide/advanced-usage",
+        //   ],
+        // },
+      ],
+    },
+    {
+      type: "category",
+      label: "Documentations",
+      collapsed: false, // keeps it open by default
+      items: [
+        {
+          type: "category",
+          label: "Lisa",
+          items: [
+            "guides/lisa-user-guide/registration",
+            "guides/lisa-user-guide/user-management",
+            "guides/lisa-user-guide/case-management",
+            "guides/lisa-user-guide/task-management",
+          ],
+        },
+        // {
+        //   type: "category",
+        //   label: "Loci",
+        //   items: [
+        //     "loci-user-guide/getting-started",
+        //     "loci-user-guide/configuration",
+        //     "loci-user-guide/automation",
+        //   ],
+        // },
+        // {
+        //   type: "category",
+        //   label: "Another Product",
+        //   items: [
+        //     "another-user-guide/setup",
+        //     "another-user-guide/advanced-usage",
+        //   ],
+        // },
       ],
     },
   ],
