@@ -15,12 +15,12 @@ const config: Config = {
   },
 
   url: "https://goweki.github.io",
-  baseUrl: "/learning-nlm/",
+  baseUrl: "/learn/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "goweki", // Usually your GitHub org/user name.
-  projectName: "learning-nlm", // Usually your repo name.
+  projectName: "learn", // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
