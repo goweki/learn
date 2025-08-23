@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "LISA",
-  tagline: "Welcome to the LISA, the legal assistant, Documentation 🎉",
+  title: "Learning & Documentations",
+  tagline: "Your hub for tutorials, user manuals and documentations",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -21,6 +21,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "goweki", // Usually your GitHub org/user name.
   projectName: "learning-nlm", // Usually your repo name.
+  trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
