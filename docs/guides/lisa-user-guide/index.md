@@ -3,7 +3,7 @@
 Welcome to the **LISA (Legal Intelligent Support Assistant)** user manual 🎉
 
 **LISA** is a web-based solution designed to streamline case handling, track progress, and generate insightful reports.  
-This documentation will guide you through installation, configuration, and everyday use.
+This documentation will guide you through installation, configuration, and use.
 
 ## Key Features
 
