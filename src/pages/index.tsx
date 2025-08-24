@@ -25,7 +25,7 @@ function HomepageHeader() {
             Courses
           </Link>
           <Link className="button button--secondary button--lg" to="/docs">
-            All Documentations
+            Browse Docs
           </Link>
           <Link className="button button--secondary button--lg" to="/blog">
             Blog
@@ -40,8 +40,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={siteConfig.title}
+      description="A Learning and Documentation Project"
     >
       <HomepageHeader />
       <main>
