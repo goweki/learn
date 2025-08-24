@@ -1,5 +1,6 @@
 ---
-title: User Guides
+title: Introduction
+sidebar_position: 1
 ---
 
 # 📚 Full Stacked User Guides

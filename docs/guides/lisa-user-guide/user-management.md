@@ -1,3 +1,8 @@
+---
+title: User Management
+sidebar_position: 3
+---
+
 # User Management
 
 Managing your team is simple in **LISA**.  

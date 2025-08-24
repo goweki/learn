@@ -1,3 +1,8 @@
+---
+title: Task Management
+sidebar_position: 5
+---
+
 # Task Management
 
 The **Task Management** module in the LISA allows users to organize, assign, and monitor tasks related to cases.  

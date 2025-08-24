@@ -1,4 +1,9 @@
-# Introduction
+---
+title: Introduction
+sidebar_position: 1
+---
+
+# LISA
 
 Welcome to the **LISA (Legal Intelligent Support Assistant)** user manual 🎉
 

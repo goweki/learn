@@ -1,3 +1,8 @@
+---
+title: Case Management
+sidebar_position: 4
+---
+
 # Case Management
 
 **LISA** helps you organize, track, and manage all your legal cases in one place.  

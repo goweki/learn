@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Learning & Documentations",
+  title: "Learn & Docs",
   tagline: "A hub for tutorials, user manuals and documentations",
   favicon: "img/favicon.ico",
 
@@ -81,14 +81,20 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "mainSidebar",
           position: "left",
-          label: "Resources",
+          label: "Browse",
+        },
+        { to: "/docs/courses", label: "Courses", position: "left" },
+        {
+          to: "/docs/guides",
+          label: "Guides",
+          position: "left",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        {
-          href: "https://lisa.goweki.com/",
-          label: "Lisa Legal",
-          position: "right",
-        },
+        // {
+        //   href: "https://lisa.goweki.com/",
+        //   label: "Lisa Legal",
+        //   position: "right",
+        // },
       ],
     },
     footer: {

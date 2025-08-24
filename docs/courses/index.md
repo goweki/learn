@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: Overview
 ---
 
 # 🎓 Learn with Full Stacked Courses

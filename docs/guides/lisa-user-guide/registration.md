@@ -1,3 +1,8 @@
+---
+title: Registration
+sidebar_position: 2
+---
+
 # Registration & Auth
 
 **LISA** uses a secure registration and login process to ensure only authorized users access the platform.  
