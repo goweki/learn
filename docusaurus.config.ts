@@ -81,6 +81,7 @@ const config: Config = {
       items: [
         { to: "/courses", label: "Courses", position: "left" },
         { to: "/guides", label: "Guides", position: "left" },
+        { to: "/docs/full-stacked", label: "Code", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
       ],
     },

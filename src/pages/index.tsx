@@ -21,8 +21,11 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/courses">
             Courses
           </Link>
-          <Link className="button button--secondary button--lg" to="/docs">
-            Browse Docs
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/full-stacked"
+          >
+            Code Snippets
           </Link>
           <Link className="button button--secondary button--lg" to="/blog">
             Blog
