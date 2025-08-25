@@ -23,7 +23,7 @@ Hands-on code samples from our [Full Stack Talks](https://www.youtube.com/@full.
 Structured guides and detailed explanations to give you clarity on our products and services.  
 This is the **source of truth** for product usage.
 
-👉 Explore the [Guides](/docs/guides/index.md)
+👉 Explore the [Guides](/guides/)
 
 ---
 

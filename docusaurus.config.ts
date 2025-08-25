@@ -2,32 +2,45 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: "Learn & Docs",
   tagline: "A hub for tutorials, user manuals and documentations",
   favicon: "img/favicon.ico",
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
   url: "https://learn.goweki.com",
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "goweki", // Usually your GitHub org/user name.
-  projectName: "learn", // Usually your repo name.
+  organizationName: "goweki",
+  projectName: "learn",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "guides",
+        path: "guides",
+        routeBasePath: "guides",
+        sidebarPath: "./sidebarsGuides.ts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "courses",
+        path: "courses",
+        routeBasePath: "courses",
+        sidebarPath: "./sidebarsCourses.ts",
+      },
+    ],
+  ],
+
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -39,10 +52,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -50,11 +59,6 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -67,34 +71,17 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/social-card.jpg",
     navbar: {
       title: "Home",
       logo: {
         alt: "logo",
         src: "img/logo_icon.svg",
-        // srcDark: "img/logo_onDark.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "mainSidebar",
-          position: "left",
-          label: "Browse",
-        },
-        { to: "/docs/courses", label: "Courses", position: "left" },
-        {
-          to: "/docs/guides",
-          label: "Guides",
-          position: "left",
-        },
+        { to: "/courses", label: "Courses", position: "left" },
+        { to: "/guides", label: "Guides", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
-        // {
-        //   href: "https://lisa.goweki.com/",
-        //   label: "Lisa Legal",
-        //   position: "right",
-        // },
       ],
     },
     footer: {
@@ -102,12 +89,7 @@ const config: Config = {
       links: [
         {
           title: "Docs",
-          items: [
-            {
-              label: "Home",
-              to: "/docs",
-            },
-          ],
+          items: [{ label: "Home", to: "/docs" }],
         },
         {
           title: "Community",
@@ -120,23 +102,14 @@ const config: Config = {
               label: "Discord",
               href: "https://discordapp.com/invite/docusaurus",
             },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+            { label: "X", href: "https://x.com/docusaurus" },
           ],
         },
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
+            { label: "Blog", to: "/blog" },
+            { label: "GitHub", href: "https://github.com/facebook/docusaurus" },
           ],
         },
       ],
