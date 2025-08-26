@@ -15,32 +15,28 @@ This guide covers **signing up, logging in, password resets, and account verific
 To create a new account:
 
 1. Visit the LISA website and click **Sign Up**.
+   ![Create-User button Screenshot](/img/screenshots/landing_page.png)
 2. Enter your details:
    - Full Name
    - Email Address
    - Name of Firm
    <!-- 3. Accept the **Terms & Conditions**. -->
-3. Click **Create Account**.
+3. Click **Register**.
+   ![Create-User button Screenshot](/img/screenshots/registration_form.png)
 
-📸 _[Insert screenshot: Sign up form]_  
-🎥 _[Insert video: How to create an account]_
+🎥 _[No video]_
 
----
+## Email Verification
 
-## Email & Phone Verification
-
-After signing up, you must verify your email or phone number:
+After signing up, you must verify your email:
 
 - **Email Verification:**  
-  You’ll receive a link in your inbox. Click it to confirm your email address.
+  You’ll receive a link in your inbox. Click it to confirm your email address, and set a new password. ![Welcome Email Screenshot](/img/screenshots/welcome_email.png)
 
-- **Phone Verification (WhatsApp/SMS):**  
-  A code will be sent to your number. Enter it in the app to verify.
+<!-- - **Phone Verification (WhatsApp/SMS):**
+  A code will be sent to your number. Enter it in the app to verify. -->
 
-> Verification is required before you can access your institution or cases.
-
-📸 _[Insert screenshot: Verification prompt]_  
-🎥 _[Insert video: Email & phone verification process]_
+> Setting a new password is required before you can sign in to access your institution or cases.
 
 ---
 
@@ -48,11 +44,9 @@ After signing up, you must verify your email or phone number:
 
 1. Visit the login page.
 2. Enter your **email or phone number** and **password**.
-3. Click **Login**.
-4. If enabled, you may be asked for **two-factor authentication (2FA)**.
-
-📸 _[Insert screenshot: Login form]_  
-🎥 _[Insert video: Logging into the system]_
+3. Click **Sign In**.
+   <!-- 4. If enabled, you may be asked for **two-factor authentication (2FA)**. -->
+   ![Welcome Email Screenshot](/img/screenshots/signin_page.png)
 
 ---
 
@@ -61,12 +55,10 @@ After signing up, you must verify your email or phone number:
 If you forget your password:
 
 1. On the login page, click **Forgot Password?**
-2. Choose whether to receive a **reset link via email** or **reset code via WhatsApp**.
-3. Follow the link/code to set a new password.
-4. Log in with your new password.
-
-📸 _[Insert screenshot: Password reset form]_  
-🎥 _[Insert video: Resetting your password]_
+<!-- 2. Choose whether to receive a **reset link via email**. -->
+2. Enter your email and click **Get Pssword Reset Link**.
+   ![Reset Password Screenshot](/img/screenshots/reset_password_page.png)
+3. Log in with your new password.
 
 ---
 
@@ -75,10 +67,7 @@ If you forget your password:
 - Use a **strong password** (at least 8 characters, with numbers & symbols).
 - Do not share your login credentials.
 - Always log out from public or shared devices.
-- Enable **two-factor authentication (2FA)** if available.
-
-📸 _[Insert screenshot: Security settings]_  
-🎥 _[Insert video: Managing account security]_
+<!-- - Enable **two-factor authentication (2FA)** if available. -->
 
 ---
 
@@ -87,10 +76,7 @@ If you forget your password:
 To sign out safely:
 
 1. Click on your profile picture at the top-right.
-2. Select **Log Out**.
-
-📸 _[Insert screenshot: Logging out]_  
-🎥 _[Insert video: How to log out]_
+2. Select **Sign Out**.
 
 ---
 
@@ -100,8 +86,8 @@ With the registration and authentication system, you can:
 
 - ✅ Create a secure account.
 - ✅ Verify your email/phone.
-- ✅ Log in to access the LCMS.
+- ✅ Log in to access LISA.
 - ✅ Reset your password if needed.
-- ✅ Keep your account safe with logout and 2FA.
+<!-- - ✅ Keep your account safe with logout and 2FA. -->
 
 This ensures that your data and cases are always **protected and accessible only to you**.
