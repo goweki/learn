@@ -139,7 +139,3 @@ Ensure readability and consistency across the documentation hub
 Deliver professional, accessible learning content
 
 ---
-
-⚡ This version is **longer, more structured, and designer-focused** (hierarchy, formatting, visuals, readability).
-
-Do you want me to also **export this improved version as a Word file** like we did with the last one?
