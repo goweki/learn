@@ -122,7 +122,7 @@ const config: Config = {
           items: [{ label: "Developer", href: "https://github.com/goweki" }],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Goweki.`,
     },
     prism: {
       theme: prismThemes.github,
