@@ -1,0 +1,56 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: url("/img/hero-bg.jpg") center/cover no-repeat;
+  color: black;
+  overflow: hidden;
+}
+
+/* In dark mode, text color is white */
+[data-theme="dark"] .heroBanner {
+  color: white;
+}
+
+/* The overlay */
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* covers the whole hero */
+  background: rgba(255, 255, 255, 0.466);
+  z-index: 0;
+}
+
+/* Make sure content sits above overlay */
+.heroBanner > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* In dark mode, flip overlay to lighter */
+[data-theme="dark"] .heroBanner::before {
+  background: rgba(71, 71, 71, 0.15);
+}
+
+/* end of HERO  */
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* align vertically */
+  gap: 1rem; /* consistent spacing between buttons */
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  margin-top: 1.5rem; /* breathing room above */
+}
