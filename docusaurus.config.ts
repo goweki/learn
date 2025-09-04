@@ -96,29 +96,30 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Courses",
-          items: [{ label: "Home", to: "/courses" }],
-        },
-        {
-          title: "Community",
+          title: "Quick Links",
           items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            { label: "X", href: "https://x.com/docusaurus" },
+            { label: "Courses", to: "/courses" },
+            { label: "Guides", to: "/guides" },
+            { label: "Full Stacked", to: "/code/full-stacked" },
           ],
         },
+        // {
+        //   title: "Community",
+        //   items: [
+        //     {
+        //       label: "Stack Overflow",
+        //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
+        //     },
+        //     {
+        //       label: "Discord",
+        //       href: "https://discordapp.com/invite/docusaurus",
+        //     },
+        //     { label: "X", href: "https://x.com/docusaurus" },
+        //   ],
+        // },
         {
           title: "More",
-          items: [
-            { label: "Blog", to: "/blog" },
-            { label: "GitHub", href: "https://github.com/facebook/docusaurus" },
-          ],
+          items: [{ label: "Developer", href: "https://github.com/goweki" }],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
