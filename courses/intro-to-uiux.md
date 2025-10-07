@@ -1,6 +1,6 @@
 ---
-title: Intro to UI/UX Design
-tags: [design]
+sidebar_position: 3
+tags: [design, UI/UX]
 ---
 
 # ✏️ Intro to UI/UX Design

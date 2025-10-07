@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+tags: [design]
+---
+
 # How to Create a Course (A Guide)
 
 This guide explains how to create a new course in Markdown format for this documentation site.  
