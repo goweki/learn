@@ -18,7 +18,7 @@ export default function AuthorCard({ name, title, image, url }) {
       <div
         style={{
           fontSize: "0.95rem",
-          color: "var(--ifm-color-secondary-dark)",
+          color: "var(--ifm-color-text-muted)",
           fontWeight: 500,
           whiteSpace: "nowrap",
         }}
@@ -54,7 +54,7 @@ export default function AuthorCard({ name, title, image, url }) {
         <p
           style={{
             margin: 0,
-            color: "var(--ifm-color-secondary)",
+            color: "var(--ifm-color-text-muted)",
             fontSize: "0.95rem",
             fontStyle: "italic",
           }}
