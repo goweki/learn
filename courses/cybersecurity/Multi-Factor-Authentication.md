@@ -1,8 +1,19 @@
-# Multi-Factor Authentication (MFA)
+---
+title: Multi-Factor Authentication (MFA)
+---
+
+import AuthorCard from '@site/src/components/AuthorCard';
 
 > 🔐 Your password alone isn’t always enough. In this course, you’ll learn how Multi-Factor Authentication (MFA) provides extra protection by requiring more than one way to prove it’s really you.
 
 ---
+
+<AuthorCard
+  name="Andrew Sinja"
+  title="Instructional Designer"
+  image="/img/users/designer_sinja.jpg"
+  url="https://www.linkedin.com/in/sinja-andrew-06899692/"
+/>
 
 ## 📘 Description
 

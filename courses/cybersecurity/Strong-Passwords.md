@@ -1,10 +1,21 @@
-# Strong Passwords
+---
+title: Strong Passwords
+---
+
+import AuthorCard from '@site/src/components/AuthorCard';
 
 Passwords are the keys to your digital life. Every time you log in to your email, social media, or online banking, you’re using a password to prove it’s really you. Unfortunately, weak or reused passwords are one of the easiest ways for attackers to break into accounts.
 
 In this course, you’ll learn why strong passwords matter, how to create them without frustration, and how to manage them safely so you don’t have to rely on memory alone.
 
 ---
+
+<AuthorCard
+  name="Andrew Sinja"
+  title="Instructional Designer"
+  image="/img/users/designer_sinja.jpg"
+  url="https://www.linkedin.com/in/sinja-andrew-06899692/"
+/>
 
 ## 📘 Description
 
