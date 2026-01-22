@@ -1,0 +1,8 @@
+{
+  "label": "Tiki Taka",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Async-first, high-skill development methodology for building products through fast relay handoffs and on-need collaboration."
+  }
+}
