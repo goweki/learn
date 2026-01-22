@@ -7,7 +7,7 @@ sidebar_position: 2
 
 _A high-skill, async-first, low-overhead delivery style inspired by tiki-taka football._
 
-## 1) What “Tiki-Taka” Means (in Q-Sync)
+## 1) What “Tiki-Taka” Means
 
 Tiki-Taka Development is how we ship high-quality product increments through:
 
@@ -200,4 +200,4 @@ We measure success by:
 - Minimal meeting load
 - User feedback loop speed
 
-**We win when Q-Sync ships fast and feels premium.**
+**We win when the Product ships fast and feels premium.**
