@@ -15,7 +15,7 @@ Here you’ll find a growing library of **self-paced courses** designed to help 
 Sharpen your creativity with courses on **UI/UX, product design, and digital storytelling**.  
 Perfect for learners who want to combine problem-solving with visual thinking.
 
-<!-- 👉 Start exploring [Design Courses](/courses/design/) -->
+{/* 👉 Start exploring [Design Courses](/courses/design/) */}
 
 ---
 
@@ -24,7 +24,7 @@ Perfect for learners who want to combine problem-solving with visual thinking.
 From **frontend and backend** fundamentals to full-stack workflows, our dev courses are hands-on and project-driven.  
 Build the confidence to ship real-world applications.
 
-<!-- 👉 Jump into [Development Courses](/courses/dev/) -->
+{/* 👉 Jump into [Development Courses](/courses/dev/) */}
 
 ---
 
@@ -33,7 +33,7 @@ Build the confidence to ship real-world applications.
 Because growth goes beyond tech.  
 Our life skill courses cover **communication, productivity, leadership, and personal development** to help you thrive in every area.
 
-<!-- 👉 Begin your journey with [Life Skill Courses](/courses/lifeskill/) -->
+{/* 👉 Begin your journey with [Life Skill Courses](/courses/lifeskill/) */}
 
 ---
 

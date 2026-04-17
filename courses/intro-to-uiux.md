@@ -105,7 +105,7 @@ You now have:
 
 👉 Next, deepen your skills with:
 
-<!-- - [Web Dev 101](/courses/web-dev-101) to bring designs to life. -->
+{/* [Web Dev 101](/courses/web-dev-101) to bring designs to life. */}
 
 - Or explore advanced [UI/UX patterns](#) (coming soon).
 

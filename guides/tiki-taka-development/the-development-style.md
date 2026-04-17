@@ -18,20 +18,20 @@ sidebar_position: 1
 
 ## Table of Contents
 
-1. [What is Tiki-Taka?](#what-is-tiki-taka)
-2. [Core Philosophy](#core-philosophy)
-3. [The Talent Pool Model](#talent-pool)
-4. [Roles & Responsibilities](#roles)
-5. [The Tiki-Taka Sprint](#sprint)
-6. [Handoff Patterns](#handoffs)
-7. [Communication Protocols](#communication)
-8. [Tools & Infrastructure](#tools)
-9. [Case Study: Q-Sync](#case-study)
-10. [Comparison with Traditional Methods](#comparison)
+1. [What is Tiki-Taka?](#1-what-is-tiki-taka)
+2. [Core Philosophy](#2-core-philosophy)
+3. [The Talent Pool Model](#3-the-talent-pool-model)
+4. [Roles & Responsibilities](#4-roles--responsibilities)
+5. [The Tiki-Taka Sprint](#5-the-sprint)
+6. [Handoff Patterns](#6-handoff-patterns)
+7. [Communication Protocols](#7-communication-protocols)
+8. [Tools & Infrastructure](#8-tools--infrastructure)
+9. [Case Study: Q-Sync](#9-case-study-q-sync)
+10. [Comparison with Traditional Methods](#10-comparison-with-traditional-methods)
 
 ---
 
-## 1. What is Tiki-Taka? {#what-is-tiki-taka}
+## 1. What is Tiki-Taka?
 
 ### The Football Origin
 
@@ -60,7 +60,7 @@ Just as Ronaldinho didn't need all 11 players on the field to execute a perfect 
 
 ---
 
-## 2. Core Philosophy {#core-philosophy}
+## 2. Core Philosophy
 
 ### The Ronaldinho Principle
 
@@ -105,7 +105,7 @@ Just as Ronaldinho didn't need all 11 players on the field to execute a perfect 
 
 ---
 
-## 3. The Talent Pool Model {#talent-pool}
+## 3. The Talent Pool Model
 
 ### What is a Talent Pool?
 
@@ -160,7 +160,7 @@ A **Talent Pool** is a network of mid-to-senior, multitalented professionals who
 
 ---
 
-## 4. Roles & Responsibilities {#roles}
+## 4. Roles & Responsibilities
 
 ### The Maestro (Project Orchestrator)
 
@@ -306,7 +306,7 @@ A **Talent Pool** is a network of mid-to-senior, multitalented professionals who
 
 ---
 
-## 5. The Tiki-Taka Sprint {#sprint}
+## 5. The Sprint
 
 ### Sprint Structure (Inspired by Agile, Optimized for Tiki-Taka)
 
@@ -388,7 +388,7 @@ Week 2: DEVELOPMENT → DELIVERY
 
 ---
 
-## 6. Handoff Patterns {#handoffs}
+## 6. Handoff Patterns
 
 ### The Relay vs. The Wall
 
@@ -507,7 +507,7 @@ Developer already started → Seamless continuation (0-1 day lag)
 
 ---
 
-## 7. Communication Protocols {#communication}
+## 7. Communication Protocols
 
 ### The Async-First Principle
 
@@ -605,7 +605,7 @@ Monday 10:30 AM (Designer, if activated):
 
 ---
 
-## 8. Tools & Infrastructure {#tools}
+## 8. Tools & Infrastructure
 
 ### The Tiki-Taka Tech Stack
 
@@ -715,11 +715,11 @@ Notion (Brief) → Figma (Design) → GitHub (Code) → Vercel (Deploy) → Slac
 
 ---
 
-## 9. Case Study: Q-Sync {#case-study}
+## 9. Case Study: Q-Sync
 
 ### Project Overview
 
-**What:** Queue Management System for Djibouti factory  
+**What:** Queue Management System for a factory  
 **Maestro:** Full-stack developer (You)  
 **Activated Talents:** UI/UX Designer (20 hours, Sprint 1)  
 **Timeline:** 6 weeks (3 sprints)  
@@ -826,7 +826,7 @@ Notion (Brief) → Figma (Design) → GitHub (Code) → Vercel (Deploy) → Slac
 
 ---
 
-## 10. Comparison with Traditional Methods {#comparison}
+## 10. Comparison with Traditional Methods
 
 ### Tiki-Taka vs. Agile Scrum
 
