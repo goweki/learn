@@ -42,11 +42,10 @@ POST /api/integration/customers
 Headers: { "api-key": "<your_api_key>" }
 Body:
 {
-  "customerId": "CUST123",
-  "name": "John Doe",
+  "customerCode": "CUST123",
+  "customerName": "John Doe",
   "email": "john@example.com",
   "phone": "+123456789",
-  "contractId": "CONTRACT001"
 }
 ```
 
