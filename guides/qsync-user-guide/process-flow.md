@@ -1,5 +1,5 @@
 ---
-id: critical-path
+id: process-flow
 title: End-to-End Flow
 sidebar_label: Process Flow
 sidebar_position: 2

@@ -15,6 +15,5 @@ This documentation will guide you through installation, configuration, and use.
 - Role-based access control
 - Booking creation and tracking
 - Automated notifications
-- Lisa AI with whatsapp integration
 
-👉 If you’re new, start with [User Flows](./qsync-user-guide/user-flows).
+👉 If you’re new, start with [User Flows](process-flow.md).
