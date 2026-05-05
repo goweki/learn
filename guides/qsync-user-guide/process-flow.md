@@ -44,7 +44,7 @@ The ERP system calls the Q-Sync integration endpoint to register a new customer.
 **ERP → Q-Sync**
 
 ```
-POST /api/integrations/users
+POST /api/integrations/customer
 ```
 
 **Q-Sync creates the new customer:**
@@ -57,7 +57,7 @@ Q-Sync reads `User.preferredNotificationChannel` — either `EMAIL` or `WHATSAPP
 
 ### 1.2 Customer completes onboarding
 
-The customer receives a magic link; They click it to set a new password, and their account becomes active.
+The customer receives a magic link. They click it to set a new password, and their account becomes active.
 
 ---
 
@@ -66,9 +66,9 @@ The customer receives a magic link; They click it to set a new password, and the
 After the customer account exists, the ERP pushes the commercial data that authorises the customer to load goods.
 
 ```
-POST /api/integrations/contracts        → creates Contract
-POST /api/integrations/loading-advices  → creates LoadingAdvice (linked to Contract)
-POST /api/integrations/skus             → creates or updates SKU records
+POST /api/integrations/contract        → creates Contract
+POST /api/integrations/loading-advice  → creates LoadingAdvice (linked to Contract)
+POST /api/integrations/sku             → creates or updates SKU records
 ```
 
 **Data relationships:**
