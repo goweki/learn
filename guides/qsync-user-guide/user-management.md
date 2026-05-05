@@ -3,7 +3,7 @@ title: User Management
 sidebar_position: 3
 ---
 
-# User Management
+# Qsync: User Management
 
 Managing your team is simple in **Q-sync**.  
 This section will guide you through **adding, updating, and removing users**, assigning roles, and managing account statuses.

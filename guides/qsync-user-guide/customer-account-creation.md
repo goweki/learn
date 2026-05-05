@@ -1,4 +1,9 @@
-# Q-Sync Queue Management App – Account Creation Methods
+---
+title: Customer Account Manager
+sidebar_position: 4
+---
+
+# Q-Sync: Account Creation Methods
 
 The Q-Sync app provides **three primary ways** to create a new user account:
 
