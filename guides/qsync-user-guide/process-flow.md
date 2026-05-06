@@ -3,6 +3,7 @@ id: process-flow
 title: End-to-End Flow
 sidebar_label: Process Flow
 sidebar_position: 2
+image: img/guides/qsync/qsync_og_image.jpg
 ---
 
 # Q-Sync: Process Flow

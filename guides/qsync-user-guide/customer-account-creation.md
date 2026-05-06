@@ -1,6 +1,7 @@
 ---
 title: Customer Account Manager
 sidebar_position: 4
+image: img/guides/qsync/qsync_og_image.jpg
 ---
 
 # Q-Sync: Account Creation Methods

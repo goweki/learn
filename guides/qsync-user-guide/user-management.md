@@ -1,6 +1,7 @@
 ---
 title: User Management
 sidebar_position: 3
+image: img/guides/qsync/qsync_og_image.jpg
 ---
 
 # Qsync: User Management
