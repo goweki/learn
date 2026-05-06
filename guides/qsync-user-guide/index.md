@@ -17,4 +17,4 @@ This documentation will guide you through installation, configuration, and use.
 - Booking creation and tracking
 - Automated notifications
 
-👉 If you’re new, start with [User Flows](process-flow.md).
+👉 If you’re new, start with [Process Flow](process-flow.md).
