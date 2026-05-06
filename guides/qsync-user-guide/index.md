@@ -1,6 +1,7 @@
 ---
 title: Introduction
 sidebar_position: 1
+image: img/guides/qsync/qsync_og_image.jpg
 ---
 
 # Q-sync
