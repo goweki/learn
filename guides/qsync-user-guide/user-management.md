@@ -6,6 +6,8 @@ image: img/guides/qsync/qsync_og_image.jpg
 
 # Qsync: User Management
 
+**Note**: Only Admins can manage users
+
 Managing your team is simple in **Q-sync**.  
 This section will guide you through **adding, updating, and removing users**, assigning roles, and managing account statuses.
 
@@ -42,50 +44,7 @@ Each user has a role that defines their permissions on the system:
 - **Customer** – Can add trucks and drivers.
 
 📸 _[Insert screenshot: Role selection dropdown]_  
-🎥 _[Insert video: Understanding roles in Lisa CMS]_
-
----
-
-## Updating a User
-
-Sometimes you’ll need to change a user’s details or role:
-
-1. Open **Settings > Users**.
-2. Find the user in the list.
-3. Click the **Edit** icon.
-4. Update their details or switch their role.
-5. Save your changes.
-
-📸 _[Insert screenshot: Editing a user]_  
-🎥 _[Insert video: How to update a user profile]_
-
----
-
-## Deactivating a User
-
-When a team member leaves the institution, you can deactivate their account.
-
-1. Go to **Settings > Users**.
-2. Locate the user.
-3. Click **Deactivate**.
-4. Confirm the action.
-
-> ⚠️ Deactivated users cannot log in, but their past cases, tasks, and records remain for auditing.
-
-📸 _[Insert screenshot: User deactivation]_  
-🎥 _[Insert video: Deactivating a user]_
-
----
-
-## User Status
-
-Each user account has a status:
-
-- ✅ **Active** – The user can log in and work normally.
-- ⏸️ **Dormant** – The account exists but is not verified or not in use.
-- ❌ **Inactive** – The account is disabled.
-
-📸 _[Insert screenshot: User list showing statuses]_
+![Welcome Email Screenshot](/img/guides/qsync/qsync_user_role.png)
 
 ---
 
@@ -97,9 +56,6 @@ If a user forgets their password:
 2. A reset link will be sent via **Email** or **WhatsApp**, depending on their account setup.
 3. After resetting, they can log back in.
 
-📸 _[Insert screenshot: Forgot password page]_  
-🎥 _[Insert video: Password reset process]_
-
 ---
 
 ## Tips for Managing Users
@@ -107,9 +63,6 @@ If a user forgets their password:
 - Always keep contact details (email/phone) up to date.
 - Assign roles carefully to control access levels.
 - Deactivate accounts promptly when staff leave.
-
-📸 _[Insert screenshot: User management overview page]_  
-🎥 _[Insert video: Best practices for user management]_
 
 ---
 
