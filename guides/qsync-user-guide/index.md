@@ -11,7 +11,7 @@ Welcome to the **Q-sync** user manual 🎉
 **Q-sync** is a web-based solution designed to streamline logistics booking management.  
 This documentation will guide you through installation, configuration, and use.
 
-Live site [Qsync](https://q-sync.goldenafricadjibouti.com/)
+Live site: [Qsync](https://q-sync.goldenafricadjibouti.com/)
 
 ## Key Features
 
