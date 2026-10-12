@@ -1,0 +1,8 @@
+{
+  "label": "NextJS Website Update and Deployment (Minimal)",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "How to make minor updates to a NextJS app then Deploy to cPanel"
+  }
+}
