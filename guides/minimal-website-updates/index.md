@@ -29,7 +29,7 @@ This guide covers updating team details and adding impact reports to the website
 
 4. Open `http://localhost:3000` in your browser to view the site.
 
-![screenshot screenshot](screenshots/npm_run_dev.png)
+![screenshot screenshot](./screenshots/npm_run_dev.png)
 
 ---
 
@@ -38,7 +38,7 @@ This guide covers updating team details and adding impact reports to the website
 1. Drop the new **CSR Committee Photo** into the public assets folder (e.g., `public/images/about/`).
 2. Drop the new **Sustainability Report PDF** into the documents folder (e.g., `public/reports/`).
 
-![screenshot drop_files](screenshots/drop_files.png)
+![screenshot drop_files](./screenshots/drop_files.png)
 
 ---
 
@@ -56,7 +56,7 @@ This guide covers updating team details and adding impact reports to the website
 }
 ```
 
-![screenshot: update_team_data](screenshots/update_team_data.png)
+![screenshot: update_team_data](./screenshots/update_team_data.png)
 
 ### Add CSR Committee Member
 
@@ -86,7 +86,7 @@ This guide covers updating team details and adding impact reports to the website
 }
 ```
 
-![screenshot text](screenshots/new_report.png)
+![screenshot text](./screenshots/new_report.png)
 
 ---
 
@@ -97,7 +97,7 @@ This guide covers updating team details and adding impact reports to the website
    - The new CSR Committee member is visible with their photo and title.
    - The Sustainability Report is downloadable/accessible under the Annual Reports section.
 
-## ![screenshot local_test](screenshots/local_test.png)
+## ![screenshot local_test](./screenshots/local_test.png)
 
 ## Step 6: Commit and Push Changes to Update Codebase
 
@@ -119,7 +119,7 @@ This guide covers updating team details and adding impact reports to the website
    git push origin main
    ```
 
-![screenshot commit_changes](screenshots/commit_changes.png)
+![screenshot commit_changes](./screenshots/commit_changes.png)
 
 ## Step 7: Build website
 
@@ -129,7 +129,7 @@ Build project for production:
 npm run build
 ```
 
-![screenshot successful_build](screenshots/successful_build.png)
+![screenshot successful_build](./screenshots/successful_build.png)
 
 ## Step 8: Prepare the deployment files
 
@@ -139,7 +139,7 @@ npm run build
 
 Ensure that `server.js` is at the root of the ZIP archive, not inside an additional sub-folder.
 
-![screenshot standalone_build](screenshots/standalone_build.png)
+![screenshot standalone_build](./screenshots/standalone_build.png)
 
 ## Step 9: Upload and extract the build
 
@@ -152,7 +152,7 @@ Ensure that `server.js` is at the root of the ZIP archive, not inside an additio
 7. Confirm that `server.js` and the asset folders are directly inside root `public_html/website`.
 8. Remove the ZIP file after verifying the extraction, if it is no longer needed.
 
-![screenshot extract_zip](screenshots/extract_zip.png)
+![screenshot extract_zip](./screenshots/extract_zip.png)
 
 ## Step 10: Verify the deployment
 
