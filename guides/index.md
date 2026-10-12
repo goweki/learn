@@ -25,10 +25,10 @@ Each guide is designed to be practical, easy to follow, and focused on helping y
 Here’s where all our user manuals live. Explore the product that matters most to you:
 
 
-{/* 🛠️ [Product A Guide](/docs/guides/product-a)
-
-- 🔗 [Product B Guide](/docs/guides/product-b)
-- ☁️ [Product C Guide](/docs/guides/product-c) */}
+- ⚖️ [LISA User Guide](./lisa-user-guide)
+- 🔄 [Q-sync User Guide](./qsync-user-guide)
+- 🌐 [NextJS Website Update and Deployment (Minimal)](./minimal-website-updates)
+- 🏓 [Tiki Taka Development Playbook](./tiki-taka-development/the-playbook)
 
 
 _(More guides are being added regularly — check back often!)_
