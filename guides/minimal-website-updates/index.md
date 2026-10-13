@@ -1,4 +1,4 @@
- # Website Editing Guide
+ # NextJS Website Editing Guide
 
 This guide covers updating team details and adding impact reports to the website.
 
